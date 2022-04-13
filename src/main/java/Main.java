@@ -1,13 +1,17 @@
+import AoC_2021.Day1.*;
+import AoC_2021.Day2.*;
 import interview.*;
 import sort.InsertionSort;
 import sort.MergeSort;
 import sort.QuickSortInPlace;
 import sort.SelectionSort;
 
+import java.io.FileNotFoundException;
+
 public class Main {
 
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) throws FileNotFoundException {
+
         int[] v = new int[]{3, 4, 1, 1, 0, 0};
         int solution = minimumNumberOfTaps.minTaps(5, v);
         System.out.println(solution);
@@ -34,6 +38,6 @@ public class Main {
         for (int x : v)
             System.out.print(x + " ");
 
-
+        // Day1.day1();
     }
 }
