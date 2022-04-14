@@ -1,5 +1,3 @@
-import AoC_2021.Day1.*;
-import AoC_2021.Day2.*;
 import interview.*;
 import sort.InsertionSort;
 import sort.MergeSort;
@@ -22,20 +20,26 @@ public class Main {
         System.out.println();
 
         int[] arr = new int[]{5, 3, 8, 1, 0};
-        MergeSort.sort(arr);
-        for (int x : v)
+        arr = MergeSort.sort(arr);
+        for (int x : arr)
             System.out.print(x + " ");
         System.out.println();
 
         arr = new int[]{5, 3, 8, 1, 0};
         SelectionSort.sort(arr);
-        for (int x : v)
+        for (int x : arr)
             System.out.print(x + " ");
         System.out.println();
 
         arr = new int[]{5, 3, 8, 1, 0};
         QuickSortInPlace.sort(arr);
-        for (int x : v)
+        for (int x : arr)
+            System.out.print(x + " ");
+        System.out.println();
+
+        arr = new int[]{1,2,-3,-5};
+        arr = AsteroidsCollision.asteroidCollision(arr);
+        for (int x : arr)
             System.out.print(x + " ");
 
         // Day1.day1();
