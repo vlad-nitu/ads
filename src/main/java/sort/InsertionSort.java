@@ -3,18 +3,21 @@ package sort;
 
 public class InsertionSort {
 
-    public static void sort(int[] v) {
-        int N = v.length;
+    public static void sort(int[] elements) {
+        if (elements == null) return;
 
-        for (int i = 1; i < N; ++i) {
-            int j = i - 1;
-            int el = v[i];
-            while (j >= 0 && v[j] > el) {
-                v[j + 1] = v[j];
+        int n = elements.length;
+        int i = 1;
+        while (i < n) {
+            int j = i;
+            int el = elements[i];
+            while (j >= 1 && elements[j - 1] >= el) {
+                elements[j] = elements[j - 1];
                 j--;
             }
 
-            v[j + 1] = el;
+            elements[j] = el;
+            i++;
         }
 
         return;
