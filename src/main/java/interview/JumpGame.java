@@ -1,6 +1,6 @@
 package interview;
 
-// TODO: add LeetCode link
+// https://leetcode.com/problems/jump-game/
 // N = arr.length
 // Time complexity: O(N*max(a[i])), i = 0, N - 1
 // Memory: O(N)
