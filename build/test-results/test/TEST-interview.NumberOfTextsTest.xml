@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="interview.NumberOfTextsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-05-13T20:53:45" hostname="Vlads-MacBook-Pro.local" time="0.068">
+  <properties/>
+  <testcase name="[1] 22233, 8" classname="interview.NumberOfTextsTest" time="0.063"/>
+  <testcase name="[2] 222222222222222222222222222222222222, 82876089" classname="interview.NumberOfTextsTest" time="0.001"/>
+  <testcase name="[3] 444479999555588866, 3136" classname="interview.NumberOfTextsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
