@@ -5,6 +5,9 @@ import sort.QuickSortInPlace;
 import sort.SelectionSort;
 
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -42,7 +45,6 @@ public class Main {
         arr = AsteroidsCollision.asteroidCollision(arr);
         for (int x : arr)
             System.out.print(x + " ");
-
-        // Day1.day1();
+        
     }
 }

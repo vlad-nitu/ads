@@ -13,12 +13,12 @@ import java.util.stream.Stream;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-public class JumpGameTest {
+public class JumpGameTest { // Tests only for jump1 ATM
 
     @ParameterizedTest
     @MethodSource("generate")
     void parameterizedTestCases(int[] nums, boolean expected) {
-        assertThat(new JumpGame().solve(nums))
+        assertThat(new JumpGame().jump1(nums))
                 .isEqualTo(expected);
     }
 
@@ -27,7 +27,7 @@ public class JumpGameTest {
                          @ForAll @Size(min = 10, max = 1000) List<@IntRange(min = 10, max = 1000) Integer> list
     ) {
         int[] arr = convertListToArray(list);
-        assertThat(JumpGame.solve(arr)).isTrue();
+        assertThat(JumpGame.jump1(arr)).isTrue();
     }
 
 
