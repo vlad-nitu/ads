@@ -9,11 +9,29 @@ repositories {
     mavenCentral()
 }
 
+
+ext {
+    junitPlatformVersion = '1.8.2'
+    junitJupiterVersion = '5.8.2'
+    assertJVersion = '3.22.0'
+    jqwikVersion = '1.6.3'
+}
+
 dependencies {
+    implementation 'org.testng:testng:7.1.0'
+    implementation 'it.unibo.tuprolog.argumentation:core-jvm:0.6.4'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-}
+    testImplementation "net.jqwik:jqwik:${jqwikVersion}"
+
+        // Fluent assertions library. You can use any other assertions instead.
+    testImplementation "org.assertj:assertj-core:${assertJVersion}"
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.8.2'
+    }
+
 
 test {
     useJUnitPlatform()
+
 }
