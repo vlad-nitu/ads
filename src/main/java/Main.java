@@ -5,10 +5,6 @@ import sort.QuickSortInPlace;
 import sort.SelectionSort;
 
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
 
 public class Main {
 
@@ -41,10 +37,10 @@ public class Main {
             System.out.print(x + " ");
         System.out.println();
 
-        arr = new int[]{1,2,-3,-5};
+        arr = new int[]{1, 2, -3, -5};
         arr = AsteroidsCollision.asteroidCollision(arr);
         for (int x : arr)
             System.out.print(x + " ");
-        
+
     }
 }
