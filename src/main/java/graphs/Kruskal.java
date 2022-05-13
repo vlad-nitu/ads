@@ -22,7 +22,9 @@ public class Kruskal {
         PriorityQueue<Edge> pq = new PriorityQueue<>();
         for (Edge edge : edges) pq.add(edge);
 
+
         UnionFind data = new UnionFind(n);
+
 
         while (MST.size() < n - 1) {
             Edge edge = pq.poll();
