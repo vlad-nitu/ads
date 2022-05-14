@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="interview.NumberOfTextsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-05-14T09:31:14" hostname="Vlads-MacBook-Pro.local" time="0.109">
+<testsuite name="interview.NumberOfTextsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-05-14T09:33:19" hostname="Vlads-MacBook-Pro.local" time="0.094">
   <properties/>
-  <testcase name="[1] 22233, 8" classname="interview.NumberOfTextsTest" time="0.099"/>
-  <testcase name="[2] 222222222222222222222222222222222222, 82876089" classname="interview.NumberOfTextsTest" time="0.002"/>
+  <testcase name="[1] 22233, 8" classname="interview.NumberOfTextsTest" time="0.082"/>
+  <testcase name="[2] 222222222222222222222222222222222222, 82876089" classname="interview.NumberOfTextsTest" time="0.001"/>
   <testcase name="[3] 444479999555588866, 3136" classname="interview.NumberOfTextsTest" time="0.001"/>
   <testcase name="[4] 1, 1" classname="interview.NumberOfTextsTest" time="0.001"/>
+  <testcase name="[5] 12345, 1" classname="interview.NumberOfTextsTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

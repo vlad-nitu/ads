@@ -24,7 +24,8 @@ public class NumberOfTextsTest {
                 Arguments.of("22233", 8), //T1
                 Arguments.of("222222222222222222222222222222222222", 82876089), //T2
                 Arguments.of("444479999555588866", 3136), //T3, edge case: 7 is 4 positions before 9, but 7 != 9
-                Arguments.of("1", 1)//T4, base case
+                Arguments.of("1", 1),//T4, base case
+                Arguments.of("12345", 1) //T5, naive pressing one different digit
         );
 
     }
