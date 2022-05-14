@@ -5,7 +5,7 @@ import java.util.List;
 
 // LeetCode link: https://leetcode.com/problems/count-number-of-texts/
 // O(N) time complexity, O(N) space complexity
-// Dynamic Programming
+// Dynamic Programming tabulation
 public class NumberOfTexts {
 
         private static int MOD = 1000000007;
