@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        int[] v = new int[]{3, 4, 1, 1, 0, 0};
+        /*int[] v = new int[]{3, 4, 1, 1, 0, 0};
         int solution = minimumNumberOfTaps.minTaps(5, v);
         System.out.println(solution);
 
@@ -41,6 +41,12 @@ public class Main {
         arr = AsteroidsCollision.asteroidCollision(arr);
         for (int x : arr)
             System.out.print(x + " ");
+        */
+
+        System.out.println(LargesVariance.largestVariance( "abcde"));
+
+
+
 
     }
 }

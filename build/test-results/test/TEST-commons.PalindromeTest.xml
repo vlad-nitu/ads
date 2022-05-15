@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="commons.PalindromeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-05-15T15:54:42" hostname="Vlads-MacBook-Pro.local" time="0.722">
+  <properties/>
+  <testcase name="validPalindrome" classname="commons.PalindromeTest" time="0.546"/>
+  <testcase name="invalidPalindrome" classname="commons.PalindromeTest" time="0.176"/>
+  <system-out><![CDATA[timestamp = 2022-05-15T17:54:43.436573, PalindromeTest:validPalindrome = 
+                              |-------------------jqwik-------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = PREVIOUS_SEED | use the previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 6          | # of all combined edge cases
+edge-cases#tried = 6          | # of edge cases tried in current run
+seed = 6372175373483870402    | random seed to reproduce generated values
+
+
+timestamp = 2022-05-15T17:54:43.621603, PalindromeTest:invalidPalindrome = 
+                              |-------------------jqwik-------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = PREVIOUS_SEED | use the previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 3          | # of all combined edge cases
+edge-cases#tried = 3          | # of edge cases tried in current run
+seed = -8264723119763556110   | random seed to reproduce generated values
+
+
+]]></system-out>
+  <system-err><![CDATA[May 15, 2022 5:54:43 PM net.jqwik.engine.execution.AfterFailureParametersGenerator logAfterFailureHandling
+INFO: After Failure Handling: PREVIOUS_SEED, Previous Generation: <GenerationInfo(-8264723119763556110, 5, [size=1])>
+]]></system-err>
+</testsuite>
