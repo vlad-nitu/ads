@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="interview.MissingNumberTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-05-17T18:36:34" hostname="Vlads-MacBook-Pro.local" time="0.078">
+  <properties/>
+  <testcase name="[1] [0, 1], 2" classname="interview.MissingNumberTest" time="0.068"/>
+  <testcase name="[2] [0, 1, 2, 3], 4" classname="interview.MissingNumberTest" time="0.0"/>
+  <testcase name="[3] [2, 0, 3, 6, 4, 9, 5, 7, 1], 8" classname="interview.MissingNumberTest" time="0.001"/>
+  <testcase name="[4] [1, 2, 3], 0" classname="interview.MissingNumberTest" time="0.001"/>
+  <testcase name="[5] [2, 0, 1, 4], 3" classname="interview.MissingNumberTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
